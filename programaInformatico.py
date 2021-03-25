@@ -1,10 +1,10 @@
 import re
-#Se abre el archivo a utilizar
+#Se abre el archivo a utilizar hola 
 f = open ('C:/Users/Marco/Documents/Pruebas/prueba1.jar','r')
 mensaje = f.read()
 f.close()
 sMs = mensaje.split()
-
+ 
 #Para datos de tipo INT
 if sMs[0] == "int" :
     #x = re.findall(r"int [a-zA-Z] = \d+;|int [a-zA-Z] = \d+ [\+\-\/\*] \d+;", mensaje)
